@@ -15,7 +15,8 @@ dependencies {
             "com.codeborne:selenide:6.2.1",
             "org.junit.jupiter:junit-jupiter-api:$junitVersion",
             "io.rest-assured:rest-assured:$restAssuredVersion",
-            "org.assertj:assertj-core:$assertJVersion")
+            "org.assertj:assertj-core:$assertJVersion",
+            "com.github.javafaker:javafaker:1.0.2")
 
     testRuntimeOnly(
             "org.slf4j:slf4j-simple:1.7.29",
